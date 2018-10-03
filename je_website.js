@@ -7,7 +7,7 @@ function init() {
 		}, 200);
 	});
 	$(".overlay-content a").click(function(e) {
-		$(this).toggleClass("change");
+		$(".hamburger_menu").toggleClass("change");
 		$(".overlay").animate({
 			height: $(".overlay").height() == 0 ? "100%" : 0
 		}, 200);
