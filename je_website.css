@@ -89,6 +89,7 @@ h3 {
 .bgimg-1 {
 	background-image: url("https://pbs.twimg.com/media/Db5Y3AIW4AEWS2N.jpg");
 	min-height: 100%;
+	background-position: center top;
 }
 .bgimg-2 {
 	background-image: url("https://s3-assets.eastidahonews.com/wp-content/uploads/2017/04/08151010/2011-emmy-awards-800x517.jpg");
@@ -101,6 +102,7 @@ h3 {
 .bgimg-4 {
 	background-image: url("https://pbs.twimg.com/media/DIEz21UXsAA4P65.jpg");
 	min-height: 100%;
+	background-position: center bottom;
 }
 
 /* parallax content */
