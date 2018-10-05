@@ -101,7 +101,7 @@ h3 {
 }
 .bgimg-4 {
 	background-image: url("https://pbs.twimg.com/media/DIEz21UXsAA4P65.jpg");
-	min-height: 100%;
+	min-height: 600px;
 }
 
 /* parallax content */
@@ -137,7 +137,8 @@ h3 {
 	background-color: #282E34;
 	text-align: center;
 	padding: 20px 80px;
-	text-align: justify;	
+	text-align: justify;
+	height: 55px;
 }
 
 /* social media buttons */
