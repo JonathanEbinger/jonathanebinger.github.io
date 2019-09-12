@@ -78,7 +78,7 @@ h3 {
 
 
 /* parallax images */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
 	position: relative;
 	opacity: 0.65;
 	background-attachment: fixed;
@@ -103,12 +103,16 @@ h3 {
 	background-image: url("https://pbs.twimg.com/media/DIEz21UXsAA4P65.jpg");
 	min-height: 600px;
 }
+.bgimg-5 {
+	background-image: url("bgimg-5.jpg");
+	min-height: 400px;
+}
 
 /* parallax content */
 .caption {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 30%;
 	width: 100%;
 	text-align: center;
 	color: #000;
@@ -143,9 +147,8 @@ h3 {
 
 /* social media buttons */
 .social_media_buttons{
-	position: absolute;
-    right: 45px;
-	bottom: 20px;
+	position: relative;
+	text-align: center;
 }
 .fa {
 	padding: 15px;
